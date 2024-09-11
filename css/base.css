@@ -85,7 +85,7 @@ h6 {
 }
 
 .mobile a {
-    border-top: 2px dashed #534f4f2a;
+    border-bottom: 2px dashed #36d966;
     width: 100%;
     padding: 0 10%;
     padding-block: 20px;
@@ -95,7 +95,12 @@ h6 {
 .menu img{
     width: 100%;
 }
-
+.title h1{
+    text-align: center;
+    margin-block: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 .map iframe{
     width: 100%;
 }
