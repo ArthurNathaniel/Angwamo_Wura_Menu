@@ -92,16 +92,52 @@ h6 {
 }
 
 
-.menu img{
-    width: 100%;
+.menu_bg{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+   
 }
+
+
 .title h1{
     text-align: center;
     margin-block: 30px;
     font-weight: 900;
     text-transform: uppercase;
     color: #21402A;
+    
 }
+
+.menu_list{
+    padding: 0 10%;
+    padding-block: 50px;
+}
+
+.menu_title h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.menu_list h1{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.menu_list h3{
+    color: #fff;
+font-weight: 300;
+}
+
+.menu_list p{
+    color: #fff;
+    margin-top: 2px;
+ 
+    font-weight: 700;
+}
+
 .map iframe{
     width: 100%;
 }
