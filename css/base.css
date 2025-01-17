@@ -94,8 +94,9 @@ h6 {
 
 .menu_bg{
     background-image: url(../images/bg.jpg);
-    background-position: center;
-    background-size: cover;
+    background-size: contain;
+    height: 100%;
+    background-repeat:repeat-y
    
 }
 
